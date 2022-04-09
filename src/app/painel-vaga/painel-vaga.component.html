@@ -1,0 +1,12 @@
+<h1>Cadatrar</h1>
+
+<form>
+    <label>Id</Label><imput type="text"name="id"[(ngModel)] = "vaga.id"><br>
+    <label>nome</Label><imput type="text"name="nome"[(ngModel)] = "vaga.nome"><br>
+    <label>foto</Label><imput type="text"name="foto"[(ngModel)] = "vaga.foto"><br>
+    <label>descricao</Label><imput type="text"name="descricao"[(ngModel)] = "vaga.descricao"><br>
+    <label>salario</Label><imput type="text"name="salario"[(ngModel)] = "vaga.salario"><br>
+    <button type="button" (click)= "Cadastrar()">Cadastrar Vaga</button>
+    <button type="button" (click)= "atualizar(vaga.id)">Atualizar Vaga</button>
+    <button type="button" (click)= "excluir(vaga.id)">Excluir Vaga</button>
+</form>
